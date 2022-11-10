@@ -1,0 +1,23 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "My portfolio for the period of study at a professional center with self-study.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SvinDzjuba/Portfolio.git"
+  },
+  "author": "SvinDzjuba",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SvinDzjuba/Portfolio/issues"
+  },
+  "homepage": "https://github.com/SvinDzjuba/Portfolio#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
+  }
+}
