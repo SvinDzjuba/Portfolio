@@ -1,7 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;300;400;500;600;700;800;900&display=swap");
+body {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 0;
+  padding: 0;
+}
+
 header {
   position: relative;
   top: 0;
   width: 100%;
-  height: 80px;
-  background-color: aqua;
+  height: 140px;
+  background-color: #fff;
+  box-shadow: 0 5px 15px 0 rgba(206, 206, 206, 0.507);
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+}
+header .info {
+  width: 35%;
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+header .info h1 {
+  width: 205px;
+  height: 40px;
+  border-bottom: 1px solid #000;
+}
+header .info h2 {
+  width: 100%;
+  height: 90px;
+  color: rgb(116, 116, 116);
+}
+header .courses_list {
+  width: 30%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+header .courses_list li a {
+  font-size: 22px;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: ease all 0.2s;
+}
+header .courses_list li a:hover {
+  background-size: 100% 2px;
+  background-image: linear-gradient(0.25turn, rgb(47, 0, 255), rgb(0, 255, 234), rgb(37, 255, 190));
+}
+header .languages {
+  width: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+header .languages li {
+  margin: 10px;
+}
+header .languages li:hover {
+  font-weight: 500;
+}
+header .languages .active {
+  font-weight: 500;
+}
+
+body {
+  background-color: rgb(82, 179, 196);
+}
+
+.wrapper {
+  width: 90%;
+  height: 800px;
+  margin: 0 auto;
+  background-color: rgb(236, 236, 236);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.514);
 }/*# sourceMappingURL=styles.css.map */
