@@ -1,4 +1,4 @@
-@import '_breakpoints';
+@import 'breakpoints';
 
 // Custom devices
 @mixin rwd($screen) {
@@ -14,7 +14,7 @@
 }
 
 @mixin laptop {
-    @media (max-width: #{$desktop}) {
+    @media (max-width: #{$laptop}) {
         @content;
     }
 }

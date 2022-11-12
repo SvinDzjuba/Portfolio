@@ -1,1 +1,40 @@
-/*# sourceMappingURL=media.css.map */
+@media (max-width: 1640px) {
+  header .courses_list {
+    width: 40%;
+  }
+  header .courses_list li a {
+    font-size: 20px;
+  }
+}
+@media (max-width: 1366px) {
+  header .info {
+    width: 28%;
+  }
+  header .courses_list {
+    width: 50%;
+  }
+  header .languages li {
+    font-size: 16px;
+  }
+}
+@media (max-width: 1085px) {
+  header .info h1 {
+    width: 175px;
+    font-size: 34px;
+  }
+  header .info h2 {
+    font-size: 28px;
+  }
+}
+@media (max-width: 980px) {
+  header .courses_list {
+    width: 60%;
+  }
+  header .languages {
+    width: 8%;
+  }
+  header .languages li {
+    font-size: 14px;
+    margin: 7px;
+  }
+}/*# sourceMappingURL=media.css.map */

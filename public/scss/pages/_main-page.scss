@@ -1,3 +1,4 @@
+// Main page
 #main-page {
     width: 90%;
     display: flex;
@@ -11,7 +12,7 @@
         display: flex;
         justify-content: center;
         img {
-            width: 80%;
+            width: 70%;
             object-fit: cover;
         }
     }
@@ -23,7 +24,7 @@
         }
         p {
             width: 75%;
-            font-size: 30px;
+            font-size: 28px;
         }
     }
 }
