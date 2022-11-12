@@ -1,0 +1,29 @@
+#main-page {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 50px;
+    font-family: $font;
+    .img_container {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        img {
+            width: 80%;
+            object-fit: cover;
+        }
+    }
+    .info_container {
+        width: 50%;
+        h3 {
+            width: 100%;
+            font-size: 48px;
+        }
+        p {
+            width: 75%;
+            font-size: 30px;
+        }
+    }
+}

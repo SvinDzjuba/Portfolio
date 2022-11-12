@@ -7,7 +7,7 @@ app.use(express.static(dir));
 
 // View engine configuration
 app.engine('html', require('ejs').renderFile);
-app.set('view engine', 'html');
+app.set('view engine', 'ejs');
 
 // Routes
 require('./routes/routes')(app, __dirname);

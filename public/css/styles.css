@@ -40,12 +40,13 @@ header .info {
 }
 header .info h1 {
   width: 205px;
-  height: 40px;
-  border-bottom: 1px solid #000;
+  font-size: 40px;
+  border-bottom: 2px solid #000;
 }
 header .info h2 {
   width: 100%;
-  height: 90px;
+  margin-bottom: 25px;
+  font-size: 34px;
   color: rgb(116, 116, 116);
 }
 header .courses_list {
@@ -55,7 +56,7 @@ header .courses_list {
   align-items: center;
 }
 header .courses_list li a {
-  font-size: 22px;
+  font-size: 26px;
   background-image: linear-gradient(currentColor, currentColor);
   background-position: 50% 100%;
   background-repeat: no-repeat;
@@ -74,21 +75,55 @@ header .languages {
 }
 header .languages li {
   margin: 10px;
-}
-header .languages li:hover {
+  font-size: 19px;
   font-weight: 500;
 }
-header .languages .active {
-  font-weight: 500;
+header .languages li a {
+  color: #000;
+}
+header .languages li a:hover {
+  color: #708f9b;
+}
+header .languages li .active {
+  color: #0c0075;
+}
+
+#main-page {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 50px;
+  font-family: "Fira Sans", sans-serif;
+}
+#main-page .img_container {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+#main-page .img_container img {
+  width: 80%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#main-page .info_container {
+  width: 50%;
+}
+#main-page .info_container h3 {
+  width: 100%;
+  font-size: 48px;
+}
+#main-page .info_container p {
+  width: 75%;
+  font-size: 30px;
 }
 
 body {
   background-color: rgb(82, 179, 196);
 }
-
-.wrapper {
+body .wrapper {
   width: 90%;
-  height: 800px;
   margin: 0 auto;
   background-color: rgb(236, 236, 236);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.514);

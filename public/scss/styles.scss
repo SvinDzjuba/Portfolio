@@ -1,9 +1,7 @@
-body {margin: 0} ul {margin: 0; padding: 0; list-style: none;} 
-a {text-decoration: none; color: #000;} h1, h2, h3, h4, h5 {margin: 0; padding: 0;}
-
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;300;400;500;600;700;800;900&display=swap');
 $font: 'Fira Sans', sans-serif;
 
-@import '_header';
-@import '_main';
-@import '_footer';
+@import '_clear';
+@import 'partials/_header';
+@import 'partials/_main';
+@import 'partials/_footer';
