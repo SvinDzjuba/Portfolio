@@ -4,7 +4,9 @@
   "description": "My portfolio for the period of study at a professional center with self-study.",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "nodemon index.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
@@ -15,10 +17,13 @@
   "bugs": {
     "url": "https://github.com/SvinDzjuba/Portfolio/issues"
   },
-  "homepage": "https://github.com/SvinDzjuba/Portfolio#readme",
+  "homepage": "https://SvinDzjuba.github.io/Portfolio",
   "dependencies": {
     "ejs": "^3.1.8",
     "express": "^4.18.2",
     "nodemon": "^2.0.20"
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
